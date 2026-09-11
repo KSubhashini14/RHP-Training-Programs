@@ -5,17 +5,17 @@ int main()
 {
     string s1, s2;
 
-    // input the two strings 
+    
     cout<<"Enter the first string: ";
     cin>>s1;
     cout<<"Enter the second string: ";
     cin>>s2;
 
-    // to find the length of the strings
+    
     int n = s1.length();
     int m = s2.length();
 
-    // creating an array
+    
     int arr[100][100] = {0};
     int max = 0;
 
