@@ -1,6 +1,3 @@
-// to find the length of the longest substring which 
-//contains equal no oof 0's and 1's
-
 #include <iostream>
 #include <string>
 using namespace std;
