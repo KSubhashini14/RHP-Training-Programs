@@ -6,7 +6,7 @@ int main()
 {
     string s1, s2;
 
-    // input the two strings
+    
     cout << "Enter the first string: ";
     cin >> s1;
 
@@ -15,8 +15,6 @@ int main()
 
     int n = s1.length();
     int m = s2.length();
-
-    // creating DP array
     int arr[100][100] = {0};
 
     for(int i = 1; i <= n; i++)
